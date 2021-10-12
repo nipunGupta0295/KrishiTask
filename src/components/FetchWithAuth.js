@@ -22,11 +22,6 @@ function FetchWithAuth(props) {
     }
 
     useEffect(() => {
-        if(props.auth?.uid) {
-            history.push("/login")
-        }
-    })
-    useEffect(() => {
         props.setData();
     }, [])
 

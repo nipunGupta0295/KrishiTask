@@ -11,14 +11,21 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { useState } from 'react';
+import {useHistory} from "react-router";
 import './data.css'
 function FetchWithAuth(props) {
     console.log(props.data.length)
+    const history = useHistory();
     const [adata, setaData] = useState(props.data);
     const dataHandler = () => {
         props.putData();
     }
 
+    useEffect(() => {
+        if(props.auth?.uid) {
+            history.push("/login")
+        }
+    })
     useEffect(() => {
         props.setData();
     }, [])

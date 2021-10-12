@@ -8,7 +8,7 @@ function PrivateRoute({ component: Component, ...remainingProps }) {
     return (
         <Route {...remainingProps}
             render={({ props }) => 
-                isLoaded(remainingProps.authFirebase) && !isEmpty(remainingProps.authFirebase) ? <Component {...props} /> : <Redirect to='/fetch_with_auth' />
+                isLoaded(remainingProps.authFirebase) && !isEmpty(remainingProps.authFirebase) ? <Component {...props} /> : <Redirect to='/' />
             
             }
         />

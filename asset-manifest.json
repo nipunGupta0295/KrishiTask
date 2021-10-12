@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/KrishiTask/static/css/main.118ef490.chunk.css",
-    "main.js": "/KrishiTask/static/js/main.6d73c6a2.chunk.js",
-    "main.js.map": "/KrishiTask/static/js/main.6d73c6a2.chunk.js.map",
+    "main.js": "/KrishiTask/static/js/main.f8fd0e17.chunk.js",
+    "main.js.map": "/KrishiTask/static/js/main.f8fd0e17.chunk.js.map",
     "runtime-main.js": "/KrishiTask/static/js/runtime-main.d1935b26.js",
     "runtime-main.js.map": "/KrishiTask/static/js/runtime-main.d1935b26.js.map",
     "static/js/2.44fd6bf4.chunk.js": "/KrishiTask/static/js/2.44fd6bf4.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d1935b26.js",
     "static/js/2.44fd6bf4.chunk.js",
     "static/css/main.118ef490.chunk.css",
-    "static/js/main.6d73c6a2.chunk.js"
+    "static/js/main.f8fd0e17.chunk.js"
   ]
 }

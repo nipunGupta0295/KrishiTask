@@ -1,0 +1,12 @@
+{
+    "api_data": {
+        "loading": false,
+        "data": [],
+        "error": ""
+    },
+    "auth": {
+        "user" :null,
+        "loading" : false,
+        "error" : ""
+    }
+}

@@ -1,0 +1,24 @@
+.nav {
+    display: flex;
+    height: 12vh;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    background-color: antiquewhite;
+}
+
+.logged-out {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    list-style-type: none;
+}
+
+.logged-out li {
+    width: 40%;
+    background-color: rgb(224, 211, 211);
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+}
